@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithme de PERT</title>
+    <link rel="stylesheet" href="/css/theme.css">
+</head>
+<body>
+    <header>
+        <h1 class="titre tritre-page"> PERT </h1>
+    </header>
+
+    <main>
+        <table id="pert-table">
+            <thead>
+                <tr>
+                    <th>Activité</th>
+                    <th>Durée</th>
+                    <th>Dependances</th>
+                    <th>Début tôt</th>
+                    <th>Début tard</th>
+                    <th>Marge</th>
+                    <th>Fin tôt</th>
+                    <th>Fin tard</th>
+                    <th>Critique</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td contenteditable="true">Donnée 1</td>
+                    <td contenteditable="true">Donnée 2</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="btn" id="add-button">Ajouter</div>
+
+    </main>
+    
+    
+    <div id="result">
+        
+    </div>
+    
+    <footer>
+        Groupe 18
+    </footer>
+    
+    <div id="popupForm" class="popup">
+        <form class="">
+            <h2>Connexion</h2>
+            <label for="username">Nom d'utilisateur:</label>
+            <input type="text" id="username" required>
+            
+            <label for="password">Mot de passe:</label>
+            <input type="password" id="password" required>
+
+            <button type="submit">Se Connecter</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</body>
+</html>

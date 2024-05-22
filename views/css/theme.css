@@ -1,0 +1,87 @@
+body{
+    margin: 0px; padding: 0;
+}
+
+header{
+    position: relative; top: 0;
+    align-items: center; align-content: center; text-align: center;
+    height: 100px; background-color: #10160d; color: blanchedalmond;
+}
+
+footer{
+    background-color: blanchedalmond; color: #10160d; 
+
+    text-align: center; font-weight: bold;
+
+    margin:auto; margin-top: 20px;
+    padding-top: 5px; padding-left: 5px;
+    width: 99%; height: 50px; 
+    
+    border-top: #10160d 2px solid;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+main, #result{
+    width: 80%; border: #10160d 1px solid; 
+    margin: auto; margin-top: 20px;
+    min-height: 200px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 1000;
+}
+
+.popup form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.popup h2 {
+    text-align: center;
+}
+
+.popup label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.popup input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.popup button {
+    width: 100%;
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.btn{
+    padding: 8px; margin: auto; margin-top: 10px;
+    width: 100px; text-align: center;
+    background-color: cadetblue; 
+    border: #10160d 1 solid; border-radius: 25px;
+}
+.btn:hover{
+    cursor: pointer;
+}
